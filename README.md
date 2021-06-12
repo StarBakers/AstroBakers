@@ -37,6 +37,7 @@ Libraries needed:
 - argparse  #for providing arguments to the program
 - json      #json library - useful to convert automatically json formatted strings to dictionary
 
+
 Usage (optional arguments):
 -h, --help                                  show this help message and exit
 -i INPUTFILE, --input_file INPUTFILE        the input file to read the csv data
