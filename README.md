@@ -38,5 +38,5 @@ Libraries needed:
 - json      #json library - useful to convert automatically json formatted strings to dictionary
 
 Usage (oprional arguments):
--h, --help            show this help message and exit
+h, --help            show this help message and exit
 
