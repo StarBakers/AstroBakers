@@ -38,13 +38,13 @@ Libraries needed:
 - json      &emsp;&emsp;&emsp;#json library - useful to convert automatically json formatted strings to dictionary
 
 usage: process_astropi_data.py [-h] [-i INPUTFILE] [-o OUTPUTFILE]
-
-Parse AstroPi collected data
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUTFILE, --input_file INPUTFILE
-                        the input file to read the csv data
-  -o OUTPUTFILE, --output_file OUTPUTFILE
+<br /> 
+Parse AstroPi collected data<br /> 
+<br /> 
+optional arguments:<br /> 
+  -h, --help            &emsp;show this help message and exit<br /> 
+  -i INPUTFILE, --input_file INPUTFILE&emsp;
+                        the input file to read the csv data<br /> 
+  -o OUTPUTFILE, --output_file OUTPUTFILE&emsp;
                         the output file to write the parsed csv data
 
