@@ -15,14 +15,14 @@ Program name: main.py
 This is a Python 3 program. 
 
 Libraries needed: 
-- ephem     &emsp;&emsp;&emsp;#to track ISS trajectory
-- gpiozero  &emsp;&emsp;#to measure CPU Temperature during program execution 
-- datetime  &emsp;&emsp;#to record date/time and calculate running time
-- time      &emsp;&emsp;&emsp;&emsp;#for "pausing" between measurements
-- sense_hat &emsp;#to interact with SenseHat
-- pathlib   &emsp;&emsp;&emsp;#to obtain current path
-- csv       &emsp;&emsp;&emsp;&emsp;#to store results in csv file 
-- logzero   &emsp;&emsp;&emsp;#to log errors (if any)
+- ephem     &nbsp;&nbsp;&nbsp;&nbsp;#to track ISS trajectory
+- gpiozero  &nbsp;&nbsp;&nbsp;&nbsp;#to measure CPU Temperature during program execution 
+- datetime  &nbsp;&nbsp;&nbsp;&nbsp;#to record date/time and calculate running time
+- time      &nbsp;&nbsp;&nbsp;&nbsp;#for "pausing" between measurements
+- sense_hat &nbsp;&nbsp;&nbsp;&nbsp;#to interact with SenseHat
+- pathlib   &nbsp;&nbsp;&nbsp;&nbsp;#to obtain current path
+- csv       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#to store results in csv file 
+- logzero   &nbsp;&nbsp;&nbsp;&nbsp;#to log errors (if any)
 
 The program starts automatically at ISS. No arguments required. 
 
