@@ -15,14 +15,14 @@ Program name: main.py
 This is a Python 3 program. 
 
 Libraries needed: 
-- ephem     &emsp;#to track ISS trajectory
+- ephem     &emsp;&emsp;#to track ISS trajectory
 - gpiozero  &emsp;#to measure CPU Temperature during program execution 
-- datetime  #to record date/time and calculate running time
-- time      #for "pausing" between measurements
-- sense_hat #to interact with SenseHat
-- pathlib   #to obtain current path
-- csv       #to store results in csv file 
-- logzero   #to log errors (if any)
+- datetime  &emsp;#to record date/time and calculate running time
+- time      &emsp;&emsp;#for "pausing" between measurements
+- sense_hat &emsp;#to interact with SenseHat
+- pathlib   &emsp;#to obtain current path
+- csv       &emsp;&emsp;#to store results in csv file 
+- logzero   &emsp;&emsp;#to log errors (if any)
 
 The program starts automatically at ISS. No arguments required. 
 
@@ -32,7 +32,7 @@ Program name: process_astropi_data.py
 This is a Python 3 program.
 
 Libraries needed:
-- csv       #to read stored csv data
-- math      #for math functions
-- argparse  #for providing arguments to the program
-- json      #json library - useful to convert automatically json formatted strings to dictionary
+- csv       &emsp;&emsp;#to read stored csv data
+- math      &emsp;&emsp;#for math functions
+- argparse  &emsp;&emsp;#for providing arguments to the program
+- json      &emsp;&emsp;#json library - useful to convert automatically json formatted strings to dictionary
