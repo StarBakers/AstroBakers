@@ -23,3 +23,24 @@ Libraries needed:
 - pathlib   #to obtain current path
 - csv       #to store results in csv file 
 - logzero   #to log errors (if any)
+
+The program starts automatically at ISS. No arguments required. 
+
+B. Code used to parse/process the collected AstroPi data
+--------------------------------------------------------
+Program name: process_astropi_data.py
+This is a Python 3 program.
+
+Libraries needed:
+- csv       #to read stored csv data
+- math      #for math functions
+- argparse  #for providing arguments to the program
+- json      #json library - useful to convert automatically json formatted strings to dictionary
+
+Usage: 
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUTFILE, --input_file INPUTFILE
+                        the input file to read the csv data
+  -o OUTPUTFILE, --output_file OUTPUTFILE
+                        the output file to write the parsed csv data
