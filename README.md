@@ -37,5 +37,5 @@ Libraries needed:
 - argparse  #for providing arguments to the program
 - json      #json library - useful to convert automatically json formatted strings to dictionary
 
-Usage (oprional arguments)
-Test 
+Thi sis 
+a test
