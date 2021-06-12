@@ -39,8 +39,6 @@ Libraries needed:
 
 usage: process_astropi_data.py [-h] [-i INPUTFILE] [-o OUTPUTFILE]
 <br /> 
-Parse AstroPi collected data<br /> 
-<br /> 
 optional arguments:<br /> 
   -i INPUTFILE, --input_file INPUTFILE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the input file to read the csv data<br /> 
   -o OUTPUTFILE, --output_file OUTPUTFILE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the output file to write the parsed csv data
