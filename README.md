@@ -20,7 +20,7 @@ Libraries needed:
 - datetime  &emsp;&emsp;#to record date/time and calculate running time
 - time      &emsp;&emsp;&emsp;&emsp;#for "pausing" between measurements
 - sense_hat &emsp;#to interact with SenseHat
-- pathlib   &emsp;#to obtain current path
+- pathlib   &emsp;&emsp;#to obtain current path
 - csv       &emsp;&emsp;#to store results in csv file 
 - logzero   &emsp;&emsp;#to log errors (if any)
 
