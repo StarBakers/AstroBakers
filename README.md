@@ -21,8 +21,8 @@ Libraries needed:
 - time      &emsp;&emsp;&emsp;&emsp;#for "pausing" between measurements
 - sense_hat &emsp;#to interact with SenseHat
 - pathlib   &emsp;&emsp;&emsp;#to obtain current path
-- csv       &emsp;&emsp;&emsp;&emsp;&emsp;#to store results in csv file 
-- logzero   &emsp;&emsp;&emsp;&emsp;#to log errors (if any)
+- csv       &emsp;&emsp;&emsp;&emsp;#to store results in csv file 
+- logzero   &emsp;&emsp;&emsp;#to log errors (if any)
 
 The program starts automatically at ISS. No arguments required. 
 
