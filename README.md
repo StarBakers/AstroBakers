@@ -4,10 +4,10 @@
 In this repository we publish all the code we created and used during our participation in this competion. 
 The code is released under the MIT Licence. 
 
-The code includes the following parts: 
-A. Code used for performing measurements at International Space Station (ISS); this code was used to achieve the flight status. Therefore, it was minimised to the bare minimum.
-B. Code used for parsing the data we received after our code run at ISS; parsing includes e.g. splitting vector data in x,y,z, converting Lat Long coordinates, etc. 
-C. Code used to analyse the data and produce the various graphs for our study. Part of the graphs is included in the report. 
+The code includes the following parts:  
+A. Code used for performing measurements at International Space Station (ISS); this code was used to achieve the flight status. Therefore, it was minimised to the bare minimum.  
+B. Code used for parsing the data we received after our code run at ISS; parsing includes e.g. splitting vector data in x,y,z, converting Lat Long coordinates, etc.   
+C. Code used to analyse the data and produce the various graphs for our study. Part of the graphs is included in the report.  
 
 A. Code used to perform measurements at ISS
 -------------------------------------------
