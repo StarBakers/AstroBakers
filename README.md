@@ -32,7 +32,7 @@ Program name: process_astropi_data.py
 This is a Python 3 program.
 
 Libraries needed:
-- csv&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#to read stored csv data
+- csv&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#to read stored csv data
 - math&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#for math functions
 - argparse&nbsp;&nbsp;&nbsp;&nbsp;#for providing arguments to the program
 - json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#json library - useful to convert automatically json formatted strings to dictionary
