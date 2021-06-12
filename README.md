@@ -36,7 +36,3 @@ Libraries needed:
 - math      #for math functions
 - argparse  #for providing arguments to the program
 - json      #json library - useful to convert automatically json formatted strings to dictionary
-
-Arguments that can be used to data parsers
-\r\nNote: The arguments are optional
-
