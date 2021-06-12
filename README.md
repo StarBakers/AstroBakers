@@ -38,5 +38,5 @@ Libraries needed:
 - json      #json library - useful to convert automatically json formatted strings to dictionary
 
 Arguments that can be used to data parsers
-Note: The arguments are optional
+\r\nNote: The arguments are optional
 
