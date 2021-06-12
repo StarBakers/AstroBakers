@@ -15,8 +15,8 @@ Program name: main.py
 This is a Python 3 program. 
 
 Libraries needed: 
-- ephem     #to track ISS trajectory
-- gpiozero  #to measure CPU Temperature during program execution 
+- ephem     &emsp;#to track ISS trajectory
+- gpiozero  &emsp;#to measure CPU Temperature during program execution 
 - datetime  #to record date/time and calculate running time
 - time      #for "pausing" between measurements
 - sense_hat #to interact with SenseHat
