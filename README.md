@@ -37,9 +37,26 @@ Libraries needed:
 - argparse&nbsp;&nbsp;&nbsp;&nbsp;#for providing arguments to the program
 - json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#json library - useful to convert automatically json formatted strings to dictionary
 
-usage: process_astropi_data.py [-h] [-i INPUTFILE] [-o OUTPUTFILE]
+usage: python process_astropi_data.py [-h] [-i INPUTFILE] [-o OUTPUTFILE]
 <br /> 
 optional arguments:<br /> 
   -i INPUTFILE, --input_file INPUTFILE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the input file to read the csv data<br /> 
   -o OUTPUTFILE, --output_file OUTPUTFILE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the output file to write the parsed csv data
 
+Note: The input file must be the one that contains that data collected from the ISS using our program above. 
+
+C.1 Code used to plot ISS trajectory vs measured magnetic field
+---------------------------------------------------------------
+Program name: map_trajectory.py
+This is a Python 3 program. 
+
+Libraries needed:
+- matplotlib
+- numpy
+- csv
+- argparse
+- mpl_toolkits.basemap
+
+usage: python [-h] [-i INPUTFILE] 
+
+Note: The input file must be the output file of the process_astropi_data.py program.
