@@ -1,0 +1,46 @@
+---
+title: "MagnoData"
+output: html_document
+---
+
+#######################################################
+##################### The *Bakers #####################
+#################### (AstroBakers) ####################
+#######################################################
+## This script will convert the LODD, LADD and       ##
+## Magnetometer Data into 4 Visual Graphic Elements  ##
+## to allow a visual analysis of the data. The       ##
+## program is R, made in RStudio                     ##
+#######################################################
+
+
+```{r}
+mydata <- read.csv(file="data-MagnDataUpdated.csv", header=TRUE)
+
+df <- data.frame(mydata)
+```
+
+```{r}
+library(ggplot2)
+
+g <- ggplot(df, aes(x=LODD, y=LADD, z=Magnetometer))
+
+FilledContourMap <- g + 
+    geom_density_2d_filled(show.legend = TRUE) +
+  coord_cartesian(expand = FALSE)
+
+SingleDotPlotMap <- g + geom_point()
+
+PolygonColorMap <- g +
+  stat_density_2d(geom = "polygon",
+                  aes(alpha = ..level.., fill = Magnetometer),
+                  bins = 15) 
+
+EmptyContourMap <- g + geom_density_2d(show.legend = TRUE) +
+  coord_cartesian(expand = TRUE)
+
+FilledContourMap
+SingleDotPlotMap
+PolygonColorMap
+EmptyContourMap
+```
