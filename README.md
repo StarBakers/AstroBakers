@@ -1,6 +1,8 @@
 # AstroBakers (*Bakers)
 This is the github repository of the AstroBakers team (nickname: *Bakers, also known as StarBakes) from the participation in AstroPi 2021 Mission Space Lab competition (https://astro-pi.org/mission-space-lab/)
 
+[our name was inspired from the fact that in this competition we would "bake" code for the AstroPi(e) :-) ]
+
 In this repository we publish all the code we created and used during our participation in this competion. 
 The code is released under the MIT Licence. 
 
