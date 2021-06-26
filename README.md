@@ -76,3 +76,17 @@ Libraries needed:
 usage: python plot_measurements.py [-h] [-i INPUTFILE]
 
 Note: The input file must be the output file of the process_astropi_data.py program.
+
+C.3 Code used to create contour maps of magnetic measurements  
+-------------------------------------------------------------
+Program name: MagnoDataReal.Rmd
+This is an R program. 
+
+- The program is under a .RMD format
+- The output maps are HTML Documents
+- Please make sure all files included are found within the same folder
+
+## Features
+- The program was made on [RStudio](https://www.rstudio.com/products/rstudio/download)
+- You may need to download the language [R](https://www.r-project.org/) once RStudio is launched (it will request it)
+- To run the program, select "RUN" -> "RUN ALL CHUNKS"
