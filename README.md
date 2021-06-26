@@ -57,6 +57,22 @@ Libraries needed:
 - argparse
 - mpl_toolkits.basemap
 
-usage: python [-h] [-i INPUTFILE] 
+usage: python map_trajectory.py [-h] [-i INPUTFILE] 
+
+Note: The input file must be the output file of the process_astropi_data.py program.
+
+C.2 Code used to plot enviromental, acceleration and orientation measurements  
+-----------------------------------------------------------------------------
+Program name: plot_measurements.py
+This is a Python 3 program. 
+
+Libraries needed:
+- matplotlib
+- argparse
+- csv
+- datetime
+- scipy
+
+usage: python plot_measurements.py [-h] [-i INPUTFILE]
 
 Note: The input file must be the output file of the process_astropi_data.py program.
