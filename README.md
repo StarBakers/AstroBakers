@@ -91,3 +91,8 @@ This is an R program.
 - The program was made on [RStudio](https://www.rstudio.com/products/rstudio/download)
 - You may need to download the language [R](https://www.r-project.org/) once RStudio is launched (it will request it)
 - To run the program, select "RUN" -> "RUN ALL CHUNKS"
+
+Enjoy :-) 
+Vaggelis (Evangelos) Atlasis  email: vaggelis DOT atlasis AT gmail DOT com
+Filippos Atlasis  email: filip DOT atlasis AT gmail DOT com
+Antoine Mauger
